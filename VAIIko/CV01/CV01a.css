@@ -1,0 +1,28 @@
+ul ul li:nth-child(3)
+{
+    color:green;
+}
+ul ul li:nth-child(1)
+{
+    color:red;
+}
+ul ul li.druhyZoznamDruhejUrovne
+{
+    color: orange;
+}
+ul li:hover ul {
+    background-color: red;
+}
+li{
+    list-style: none;
+}
+li {
+    margin: 0;
+    padding: 10px 10px 10px;
+    list-style: none;
+    background-image: url("list_image.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 10px;
+    /*list-style-image: url("list_image.png");*/;
+}

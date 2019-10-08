@@ -1,0 +1,55 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    /* The image used */
+    background-image: url("../img/obloha.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+img.vtak {
+    position: absolute;
+    width: 200px;
+    height: auto;
+}
+
+#slnko {
+    position:fixed;
+    left:0;
+    right:0;
+    bottom:0;
+    top:0;
+    margin: auto;
+}
+
+.left {
+    left: 10%;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.right {
+    right: 10%;
+}
+
+.top {
+    top: 10%;
+}
+
+.bottom {
+    bottom: 10%;
+}
+
+img:hover#slnko {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}

@@ -1,0 +1,13 @@
+body {
+    background: green;
+}
+h1 {
+    text-align: center;
+}
+li:nth-child(2n) {
+    color:red
+}
+
+ul{
+    color:black;
+}*/

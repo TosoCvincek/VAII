@@ -1,0 +1,37 @@
+html{
+    background: url("obloha.jpg") no-repeat center center fixed;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    margin: 0;
+}
+img.sun{
+    position:fixed;
+    left:0;
+    right:0;
+    bottom:0;
+    top:0;
+    margin: auto;
+}
+img.vtacik{
+    position: absolute;
+    width: 200px;
+    height: auto;
+}
+.left {
+    left: 10%;
+}
+
+.right {
+    right: 10%;
+}
+
+.top {
+    top: 10%;
+}
+
+.bottom {
+    bottom: 10%;
+}

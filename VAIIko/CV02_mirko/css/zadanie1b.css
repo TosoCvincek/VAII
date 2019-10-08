@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+}
+
+ul {
+    display: table;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+ul li {
+    float: left;
+    list-style-type: none;
+    font-size: 50px;
+    border: 1px solid black;
+}
+
+ul:nth-child(even) {
+    background: red;
+}
+
+ul:nth-child(odd) {
+    background: gray;
+}
+
+ul:nth-child(3n) {
+    color: white;
+    font-weight: 900;
+}
+
+ul:hover {
+    background: yellow;
+}
+
+ul li:hover {
+    background: green;
+}

@@ -1,0 +1,32 @@
+ul {
+    display:table;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+ul li{
+    float: left;
+    list-style-type: none;
+    font-size: 50px;
+    border: 1px solid black;
+    font-size: 50px;
+}
+ul{
+    background-color: green;
+}
+ul:nth-child(2n) {
+    color:red;
+}
+ul:nth-child(2n - 1) {
+    color:blue;
+}
+ul:nth-child(3n) {
+    color:white;
+    font-weight:bold;
+}
+ul:hover{
+    background: yellow;
+}
+ul li:hover{
+    background:green;
+}
